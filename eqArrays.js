@@ -6,11 +6,19 @@ const assertEqual = function(actual, expected) {
     console.log( ` 🛑🛑🛑 Assertion Failed: ${actual} !== ${expected} `)
 }; 
 
-let eqArrays = function(array1, array2){ 
-  if(array1 = array2){
-    return true 
+
+let eqArrays = function (arr1, arr2) {
+  let result = true
+  if (arr1.length !== arr2.length) {
+    result = false
   }
-  else 
-    return false 
-} 
+
+for (var i = 0; i < arr1.length; i++) {
+  if (arr1[i] !== arr2[i]) {
+    result = false
+    break;
+    }
+  }
+  return result
+}; 
 
