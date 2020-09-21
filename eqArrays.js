@@ -19,6 +19,8 @@ for (var i = 0; i < arr1.length; i++) {
     break;
     }
   }
-  return result
+  return assertEqual(result, true)
 }; 
+
+module.exports = eqArrays;
 

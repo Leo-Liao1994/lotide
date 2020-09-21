@@ -20,5 +20,6 @@ const countLetters = function(input){
   return obj
 }  
 
+console.log(countLetters('fasflanfkjasfn'))
 
 
