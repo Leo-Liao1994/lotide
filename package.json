@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@leo/lotide",
+  "version": "2.0.0",
+  "description": "leo's final work",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Leeeeeeeeeeeeeo/lotide.git"
   },
-  "author": "",
+  "author": "leo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Leeeeeeeeeeeeeo/lotide/issues"
@@ -22,5 +22,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.1.3"
-  }
+  },
+  "dependencies": {}
 }

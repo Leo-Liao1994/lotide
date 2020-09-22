@@ -31,11 +31,5 @@ let assertArraysEqual = function(array1, array2){
     console.log( ` 🛑🛑🛑 Assertion Failed: ${array1} !== ${array2} `)
   }  
 
-const countLetters = function(input){ 
-  
-    }
-  }  
-  
-  console.log(countLetters("lighthouse in the house"))
   
   
